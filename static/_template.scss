@@ -1,0 +1,9 @@
+body{
+    display: grid;
+    grid-template-areas: 'navbar navbar navbar navbar'
+                         'header header header header'
+                         'aside aside aside aside'
+                         'footer footer footer footer';
+    grid-template-rows: 50px 500px 300px 400px;
+    grid-template-columns: 25% 25% 25% 25%;
+}
